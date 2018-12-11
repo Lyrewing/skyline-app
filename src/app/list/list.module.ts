@@ -4,22 +4,20 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
-import { HomePage } from './home.page';
-import {NgxEchartsModule} from 'ngx-echarts';
+import { ListPage } from './list.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    NgxEchartsModule,
     RouterModule.forChild([
       {
         path: '',
-        component: HomePage
+        component: ListPage
       }
     ])
   ],
-  declarations: [HomePage]
+  declarations: [ListPage]
 })
-export class HomePageModule {}
+export class ListPageModule {}

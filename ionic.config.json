@@ -1,6 +1,5 @@
 {
-  "name": "skyline-app",
+  "name": "myapp",
   "integrations": {},
-  "type": "angular",
-  "id": "a13ee3f2"
+  "type": "angular"
 }
