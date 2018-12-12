@@ -5,14 +5,13 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
-import {NgxEchartsModule} from 'ngx-echarts';
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    NgxEchartsModule,
     RouterModule.forChild([
       {
         path: '',

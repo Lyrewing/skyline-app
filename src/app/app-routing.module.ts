@@ -13,7 +13,7 @@ const routes: Routes = [
   },
   {
     path: 'list',
-    loadChildren: './list/list.module#ListPageModule'
+    loadChildren: './list/list.module#ListPageModule',
   }
 ];
 
