@@ -5,19 +5,27 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
 import { ListPage } from './list.page';
-
+import { OrderPage } from './orderservice/order.page';
+    import {NgxEchartsModule} from 'ngx-echarts';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    NgxEchartsModule,
     RouterModule.forChild([
       {
         path: '',
         component: ListPage
+      },
+      {
+        path: 'order',
+        component: OrderPage,
       }
+
+
     ])
   ],
-  declarations: [ListPage]
+  declarations: [ListPage, OrderPage]
 })
-export class ListPageModule {}
+export class ListPageModule { }
