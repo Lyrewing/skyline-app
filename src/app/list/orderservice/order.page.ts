@@ -164,7 +164,7 @@ function area() {
         grid: {
             left: '2%',
             right: '4%',
-            bottom: '22%',
+            bottom: '15%',
             containLabel: true
         },
         xAxis: [
